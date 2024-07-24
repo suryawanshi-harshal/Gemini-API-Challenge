@@ -1,30 +1,29 @@
 {
     "manifest_version": 3,
-    "name": "Sustainable Alternatives Suggester",
+    "name": "Sustainable Alternatives Finder",
     "version": "1.0",
-    "description": "Analyzes the screen and suggests sustainable alternatives",
+    "description": "Analyzes the screen content and suggests sustainable alternatives using Gemini AI.",
     "permissions": [
-        "activeTab",
-        "scripting"
+      "activeTab",
+      "scripting",
+      "storage",
+      "tabs"
     ],
     "background": {
-        "service_worker": "background.js"
+      "service_worker": "background.js"
     },
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ],
     "action": {
-        "default_icon": {
-            "16": "icon16.png",
-            "48": "icon48.png",
-            "128": "icon128.png"
-        }
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
     }
-}
+  }
+  
