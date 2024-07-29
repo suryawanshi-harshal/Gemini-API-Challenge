@@ -1,36 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sustainable Alternatives Finder</title>
+  <title>Gemini AI Screenshot Analyzer</title>
   <style>
     body {
-      width: 200px;
       font-family: Arial, sans-serif;
-      padding: 10px;
-      text-align: center;
-    }
-    input, button {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-    }
-    button {
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button:hover {
-      background-color: #45a049;
+      margin: 10px;
     }
   </style>
 </head>
 <body>
-  <h3>Sustainable Alternatives</h3>
-  <input type="text" id="apiKey" placeholder="Enter API Key">
-  <button id="saveApiKey">Save API Key</button>
-  <button id="analyzeBtn">Analyze Page</button>
+  <h1>Gemini AI Analyzer</h1>
+  <label for="apiKey">API Key:</label>
+  <input type="text" id="apiKey" placeholder="Enter your API key">
+  <button id="saveKey">Save API Key</button>
+  <button id="analyze">Analyze Current Tab</button>
+
   <script src="popup.js"></script>
 </body>
 </html>
