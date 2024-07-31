@@ -1,0 +1,6 @@
+
+.env
+config.js
+dist/background.bundle.js
+dist/background.bundle.js.LICENSE.txt
+/node_modules
