@@ -1,4 +1,6 @@
 const path = require('path');
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
+
 
 module.exports = {
   mode: 'production', // or 'production'
@@ -25,4 +27,8 @@ module.exports = {
   resolve: {
     extensions: ['.js'] // Automatically resolve .js extensions
   },
+  plugins: [
+    new NodePolyfillPlugin()
+  ]
+
 };
