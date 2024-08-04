@@ -1,0 +1,4 @@
+
+.node_modules
+\dist
+/Extension/node_modules

@@ -1,0 +1,6 @@
+functions_framework
+google-cloud-vision
+requests
+genai 
+google-cloud-secret-manager
+google-generativeai
